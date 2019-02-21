@@ -21,7 +21,7 @@ end
 
 def now_serving(array, num)
   count = 0
-  while count <= num
+  while count < num
   count += 1
     if array[0] != nil
      puts "Now serving #{array[0]}"
