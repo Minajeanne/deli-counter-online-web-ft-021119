@@ -25,16 +25,13 @@ def now_serving(array, num)
   count += 1
   if array[0] != nil
     puts "Now serving #{array[0]}"
+    array.shift
   else
-    # puts "Currently serving #{array[0]}."
-    # array.shift
-    
-    array.empty?
     puts "Line is empty"
   end
 end
 
-customers = ["Alex", "Alex", "Alex"]
+customers = ["Alex", "Alicia", "Alex"]
 now_serving(customers, 5)
 
 #Now serving Alex
