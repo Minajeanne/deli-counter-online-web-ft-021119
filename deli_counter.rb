@@ -20,11 +20,17 @@ end
 
 
 def now_serving(array, num)
-  if array.empty?
-    puts "There is nobody waiting to be served!"
+  count = 0
+  while count <= num
+  count += 1
+  if array[0] != nil
+    puts "Now serving #{array[0]}"
   else
-    puts "Currently serving #{array[0]}."
-    array.shift
+    # puts "Currently serving #{array[0]}."
+    # array.shift
+    
+    array.empty?
+    puts "Line is empty"
   end
 end
 
