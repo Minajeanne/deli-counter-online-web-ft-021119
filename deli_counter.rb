@@ -31,6 +31,8 @@ end
 customers = ["Alex", "Alex", "Alex"]
 now_serving(customers, 5)
 
-Now serving Alex
-Now serving Alex
-Now serving Alex
+#Now serving Alex
+#Now serving Alex
+#Now serving Alex
+# line is empty
+# line is empty
