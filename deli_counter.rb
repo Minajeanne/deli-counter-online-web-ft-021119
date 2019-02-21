@@ -27,3 +27,10 @@ def now_serving(array, num)
     array.shift
   end
 end
+
+customers = ["Alex", "Alex", "Alex"]
+now_serving(customers, 5)
+
+Now serving Alex
+Now serving Alex
+Now serving Alex
